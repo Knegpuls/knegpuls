@@ -1,0 +1,39 @@
+.login-page {
+  width: 100%;
+  height: 100vh;
+
+  .logotype {
+    position: absolute;
+    z-index: 100;
+    padding: 1rem;
+
+    .img-fluid {
+      width: 16rem;
+    }
+  }
+
+  .blur {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/login-background.jpg") no-repeat center center
+      fixed;
+    transform: scale(1.1);
+    overflow: hidden;
+    background-size: cover;
+    filter: blur(4px);
+    position: fixed;
+  }
+
+  .login-form {
+    top: 40%;
+    position: relative;
+    filter: blur(0px) !important;
+    width: 20rem;
+    margin: 0 auto;
+    color: #fff;
+
+    .form-control {
+      color: #fff;
+    }
+  }
+}

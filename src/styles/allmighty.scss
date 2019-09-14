@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+}
+
+.btn-primary {
+  background-color: $application-color !important;
+  border-color: $application-color !important;
+}

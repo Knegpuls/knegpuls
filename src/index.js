@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles/allmighty.scss";
 import "./index.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
