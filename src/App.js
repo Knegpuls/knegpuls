@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">Column</div>
-        <div className="col">Column</div>
+        <div>Knegpuls</div>
       </div>
     </div>
   );

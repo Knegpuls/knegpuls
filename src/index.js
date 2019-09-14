@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles/allmighty.scss";
 import "./index.scss";
 import CreateUser from "./components/user/user-create";
 import * as serviceWorker from "./serviceWorker";
