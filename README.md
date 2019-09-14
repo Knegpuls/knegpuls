@@ -1,8 +1,6 @@
-## Bootstrap
+## react-bootstrap
 
-https://getbootstrap.com/
-
-https://material-ui.com/
+https://react-bootstrap.github.io/layout/grid/
 
 ## Available Scripts
 
