@@ -58,7 +58,7 @@ export default class UserCreate extends Component {
         {this.formGroup('phone', 'Telefonnummer')}
         {this.formGroup('department', 'Avdelning jag är chef för')}
         <FormGroup>
-          <FormControl type="submit" value="Fortsätt"></FormControl>
+          <FormControl disabled={Object.values(this.state).some(x => x.length === 0)} type="submit" value="Fortsätt"></FormControl>
         </FormGroup>
       </Form>
     );
